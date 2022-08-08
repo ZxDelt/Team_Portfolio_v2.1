@@ -1,0 +1,34 @@
+/*================================================= custom cursor */
+.cursor {
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(to right, #cb356b, #bd3f32);
+  position: fixed;
+  border-radius: 5px;
+  z-index: 9999;
+}
+
+.cursor__follower {
+  transition: transform 0.4s;
+  width: 6px;
+  height: 6px;
+  z-index: 9999;
+}
+
+/* Unrelated styles */
+html {
+  cursor: none;
+}
+/*================================================= custom cursor */
+.divdada {
+  padding-left: 78px;
+  /* margin-left: 78px; */
+  transition: all 0.5s ease;
+}
+@media screen and (max-width: 426px) {
+  .divdada {
+    padding-left: 0;
+  }
+}

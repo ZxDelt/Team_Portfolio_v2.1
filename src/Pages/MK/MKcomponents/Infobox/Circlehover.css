@@ -1,0 +1,173 @@
+/* .Contnrrr1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(120deg, #fdfbfb 10%, #eff8f7 100%);
+ 
+} */
+
+.Itemm {
+  background: linear-gradient(0deg, #ffffff 5%, #fdfbdd 11%, #3a6186, #89253e);
+  /* background-image: linear-gradient(
+    0deg,
+    #ffffff 5%,
+    #fdfbdd 11%,
+    #8aa3a8 40%,
+    #8aa3a1 55%,
+    #54959c 90%
+  ); */
+  font-family: "Joefin Slab";
+  max-height: auto;
+
+  box-sizing: border-box;
+  /* height: 100vh; */
+  height: calc(100% + 2vh);
+}
+.Headd {
+  font-size: 2.2rem;
+  /* margin-top: 22px; */
+  height: 30vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.containerr1 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 750px;
+  /* max-height: auto; */
+  margin: auto;
+  position: relative;
+  text-align: center;
+  width: calc(94% - 1em);
+}
+.productt1 {
+  flex: auto;
+  font-size: 1.5rem;
+  margin: 0 1vw calc(2vw + 100px) 1vw;
+  min-width: calc(33% - 2vw);
+  position: relative;
+}
+.productt1:before {
+  content: "";
+  float: left;
+  padding-top: 100%;
+}
+.Contentt {
+  background: white;
+  border-radius: 30%;
+  height: 84%;
+  margin: 8%;
+  position: absolute;
+  width: 84%;
+  vertical-align: middle;
+  z-index: 5000;
+}
+.productt1:hover .effect-1,
+.productt1:hover .effect-2 {
+  display: block;
+}
+.effect-1,
+.effect-2 {
+  border-radius: 30%;
+  display: none;
+  mix-blend-mode: multiply;
+  height: 84%;
+  opacity: 1;
+  position: absolute;
+  width: 84%;
+  z-index: 3000;
+}
+.effect-1 {
+  animation: rotate 1.8s linear infinite;
+  background: lightblue;
+}
+.effect-2 {
+  animation: rotate 1.2s linear reverse infinite;
+  background: #e7a9ff;
+}
+@keyframes rotate {
+  0% {
+    top: 0;
+    left: 8%;
+  }
+  25% {
+    top: 8%;
+    left: 0%;
+  }
+  50% {
+    top: 16%;
+    left: 8%;
+  }
+  75% {
+    top: 8%;
+    left: 16%;
+  }
+  100% {
+    top: 0;
+    left: 8%;
+  }
+}
+.Titlee {
+  position: relative;
+  top: calc(100% + 16px);
+  font-size: 1.2rem;
+}
+.Titlee span {
+  display: block;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.1rem;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+.Contentt .exercisee {
+  background-image: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  border-radius: 5px;
+  height: 50%;
+  margin: 25%;
+  width: 50%;
+}
+.Contentt .sleepp {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border-radius: 50%;
+  height: 50%;
+  margin: 25%;
+  width: 50%;
+}
+.Contentt .meditationn {
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+  border-radius: 5px;
+  height: 40%;
+  margin: 30%;
+  transform: rotate(45deg);
+  width: 40%;
+}
+/* .twitter {
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  border-radius: 14px;
+  bottom: 20px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  line-height: 28px;
+  padding: 0 12px;
+  position: fixed;
+  right: 20px;
+  z-index: 5000; */
+/* .twitter i {
+  margin-right: 6px;
+  position: relative;
+  top: 2px;
+}
+.twitter a {
+  color: #fff;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 0.7rem;
+  text-decoration: none;
+} */
