@@ -1,5 +1,5 @@
 /*================================================= custom cursor */
-.cursor {
+/* .cursor {
   left: 0;
   top: 0;
   width: 10px;
@@ -15,12 +15,12 @@
   width: 6px;
   height: 6px;
   z-index: 9999;
-}
+} */
 
 /* Unrelated styles */
-html {
+/* html {
   cursor: none;
-}
+} */
 /*================================================= custom cursor */
 .divdada {
   padding-left: 78px;
